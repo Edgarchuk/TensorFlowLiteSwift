@@ -1,3 +1,3 @@
 # TensorFlowLiteSwift
 
-A description of this package.
+SPM for TensorFlowLiteSwift

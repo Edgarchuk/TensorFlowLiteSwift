@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "TensorFlowLiteC",
+        "repositoryURL": "https://github.com/Edgarchuk/TensorFlowLiteC.git",
+        "state": {
+          "branch": "master",
+          "revision": "08327de3d13d804ac88d1ed172802b6221114f79",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
