@@ -1,3 +1,3 @@
 # TensorFlowLiteSwift
 
-SPM for TensorFlowLiteSwift
+Unofficial SPM for TensorFlowLiteSwift
