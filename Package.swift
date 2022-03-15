@@ -16,11 +16,10 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "TensorFlowLiteSwift",
-            dependencies: ["TensorFlowLiteC", "TensorFlowLiteCCoreML", "TensorFlowLiteCMetal"],
+            dependencies: ["TensorFlowLiteC", "TensorFlowLiteCCoreML"],
             path: "Sources"),
         
         .binaryTarget(name: "TensorFlowLiteC", path: "TensorFlowLiteC.xcframework"),
-        .binaryTarget(name: "TensorFlowLiteCCoreML", path: "TensorFlowLiteCCoreML.xcframework"),
-        .binaryTarget(name: "TensorFlowLiteCMetal", path: "TensorFlowLiteCMetal.xcframework")
+        .binaryTarget(name: "TensorFlowLiteCCoreML", path: "TensorFlowLiteCCoreML.xcframework")
     ]
 )
